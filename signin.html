@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JobBoard</title>
+        <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
+        <script src="../js/jquery-1.11.2.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/jquery.validate.min.js"></script>
+       
+     </head>
+    <body>
+        <div class="row" style="background-color:white">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <H4 style="text-align:center;font-family:Courier New;font-size:40px"> JobBoard</H4>  
+            </div>       
+            <div class="col-lg-8 col-md-4 col-sm-8 col-xs-8">
+                <ul class="nav nav-tabs">
+                    <Li><a href="#">Company</a></li>
+                    <Li class="active"><a href="#">Sign in</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    
+                    </ul>
+            </div>  
+             
+        </div>
+        
+        <h4 style="text-align: center; text-decoration: underline"> Sign In Form </h4>
+        <form class="form-horizontal" id="signInForm" >
+            <div class="form-group">
+                <label for="eMail" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-lg-push-2 col-md-push-2">Email Address </label>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"> 
+                    <input type="text" class="form-control" id="eMail" name="eMail">    
+                </div>  </div>
+            <div class="form-group">
+                <label for="passwd" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-lg-push-2 col-md-push-2">Password </label>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"> 
+                    <input type="password" class="form-control" id="passwd" name="passwd">    
+                </div>  </div>
+            <p style="text-align: center">      <button type="submit" class="btn btn-primary">Submit</button></p>
+        </form>
+        <div id="signin" style="text-align: center">
+            <a href="register.html">Are you new?Register</a> 
+            <span class="separator">|</span>
+            <a  href="ForgotPassword.html">Forgot Password?</a>
+        </div>
+       
+        <div id="status3" style="display:none">
+            <br>Either email id or password is wrong or is not registered.
+        </div>
+        
+
+
+    </body>
+</html>
