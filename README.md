@@ -1,2 +1,2 @@
 # mobikom.org  :satellite:  
-https://www.mobikom.org/
+https://www.mobikom.org
