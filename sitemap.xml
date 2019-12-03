@@ -9,6 +9,12 @@
         <priority>0.8</priority>
     </url>
    <url>
+        <loc>https://www.mobikom.org/about.html</loc>
+        <lastmod>2006-11-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+   <url>
         <loc>https://www.mobikom.org/contact.html</loc>
         <lastmod>2006-11-18</lastmod>
         <changefreq>daily</changefreq>
@@ -16,6 +22,12 @@
     </url>
    <url>
         <loc>https://www.mobikom.org/privacy.html</loc>
+        <lastmod>2006-11-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+   <url>
+        <loc>https://www.mobikom.org/en/gdpr.html</loc>
         <lastmod>2006-11-18</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
