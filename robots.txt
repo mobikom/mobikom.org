@@ -1,2 +1,5 @@
 
+User-agent: *
+Disallow:
+
 Sitemap: https://www.mobikom.org/sitemap.xml
